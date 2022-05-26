@@ -22,10 +22,11 @@ font-family: sans-serif;
 `;
 
 export const ListItem = styled.li`
-margin: 5rem 0;
+margin: .5rem 0;
 background: #000;
 color: #fff;
 padding: .5rem;
+border-radius: 5px;
 `;
 
 export const LinkHome = styled(Link)`
@@ -37,4 +38,5 @@ background-color: #000;
 padding: .5rem 0;
 color: #fff;
 text-decoration: none;
+border-radius: 5px;
 `;
